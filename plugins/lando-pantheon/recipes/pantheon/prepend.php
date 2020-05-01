@@ -45,7 +45,7 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROT
  * environment configuration.
  */
 if (isset($_SERVER['GATEWAY_INTERFACE'])) {
-  $_SERVER['PANTHEON_ENVIRONMENT'] = 'dev';
+  $_SERVER['PANTHEON_ENVIRONMENT'] = 'lando';
   $_SERVER['PANTHEON_SITE'] = '7587b3ea-95b6-44ab-b36b-6ebd9c3e9866';
 }
 else {
